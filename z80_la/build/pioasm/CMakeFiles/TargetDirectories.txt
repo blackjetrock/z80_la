@@ -1,0 +1,3 @@
+/tree/projects/github/casio-fx9000p/firmware/z80_la/build/pioasm/CMakeFiles/rebuild_cache.dir
+/tree/projects/github/casio-fx9000p/firmware/z80_la/build/pioasm/CMakeFiles/edit_cache.dir
+/tree/projects/github/casio-fx9000p/firmware/z80_la/build/pioasm/CMakeFiles/pioasm.dir

@@ -1,0 +1,30 @@
+int in;
+int out;
+
+// Assume a 2 bit address bus as I'm manually typing this
+
+int eqn[] =
+  {
+   0,         // 0000
+   0,         // 0001
+   0,         // 0000
+   0,         // 0001
+   0,         // 0000
+   0,         // 0001
+   0,         // 0000
+   0,         // 0001
+   0,         // 0000
+   0,         // 0001
+   0,         // 0000
+   0,         // 0001
+   0,         // 0000
+   0,         // 0001
+   0,         // 0000
+   0,         // 1111
+  };
+
+while(1)
+  {
+    in=(gpio_states() & 0xf);
+    gpio_put(eqn[in]);
+  }
